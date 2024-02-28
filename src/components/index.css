@@ -1,0 +1,114 @@
+.container {
+    background: linear-gradient(270.37deg, #D6FFF2 0.42%, #CCF8F2 27.92%, #B4E7F5 73.09%, #8CCBF9 130.06%, #55A5FE 194.88%, #54A4FF 196.84%);
+
+    border: 1px solid #E3E2D6;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .sub-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    max-width: 50%;
+    margin: 10px;
+  }
+  .sub-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  @media screen and (max-width: 767px) {
+    .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .sub-container1 {
+      align-items: center;
+      max-width: 80%;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .sub-container2{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .sub-container2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .picture {
+    width: 200px;
+    background-color: transparent;
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .picture {
+      width: 100px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .picture {
+      width: 200px;
+    }
+  }
+  .title {
+    color: black;
+    font-family: Arial, sans-serif;
+    
+  }
+  .para {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .button {
+    color: white;
+    width: 150px;
+    background-color: #fb8000;
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 0px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .title {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .title {
+      text-align: center;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .para {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .para {
+      text-align: center;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .button {
+      align-self: center;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .button {
+      align-self: center;
+    }
+  }
